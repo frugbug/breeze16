@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "minecraft:block/copper_cut_exposed",
+    "side": "minecraft:block/copper_cut_exposed",
+    "top": "minecraft:block/copper_cut_exposed"
+  }
+}
