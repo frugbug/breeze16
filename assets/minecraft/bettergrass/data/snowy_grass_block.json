@@ -1,0 +1,15 @@
+{
+  "layers": [
+    {
+      "textures": {
+        "top": "minecraft:block/snow",
+        "side": "minecraft:block/grass_block_snow",
+        "overrides": {
+          "blend_up": "lambdabettergrass:block/grass_block_snow/grass_block_snow_blend_up",
+          "blend_up_m": "lambdabettergrass:block/grass_block_snow/grass_block_snow_blend_up_m",
+          "arch": "lambdabettergrass:block/grass_block_snow/grass_block_snow_side_arch"
+        }
+      }
+    }
+  ]
+}

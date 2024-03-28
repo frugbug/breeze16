@@ -1,0 +1,6 @@
+matchTiles=spruce_leaves_extra
+method=vertical
+connect=block
+biomes=frozen_ocean deep_frozen_ocean frozen_river snowy_beach snowy_taiga snowy_taiga_hills snowy_taiga_mountains snowy_tundra snowy_mountains ice_spikes
+heights=63-65536
+tiles=leaves leaves snow snow

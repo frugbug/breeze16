@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+            { "model": "traverse:block/yellow_autumnal_leaves" },
+            { "model": "traverse:block/yellow_autumnal_leaves_angled" }
+        ]
+    }
+}

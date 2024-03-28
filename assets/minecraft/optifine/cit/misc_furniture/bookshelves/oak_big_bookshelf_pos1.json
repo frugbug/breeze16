@@ -1,0 +1,9 @@
+{
+  "parent": "./oak_big_bookshelf",
+  "display": {
+		"fixed": {
+			"translation": [-16, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{
+  "conditions": bushy_leaves.full,
+  "fallbacks": "assets/minecraft/blockstates/acacia_leaves_bushy_none.json"
+}

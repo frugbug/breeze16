@@ -1,0 +1,10 @@
+{
+  "parent": "blahaj:item/blue_shark",
+  "display": {
+  	"fixed": {
+  		"rotation": [-80, 22.5, -5],
+  		"translation": [0, 0, 10],
+  		"scale": [2, 2, 2]
+  	}
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:options_background.stone_bricks",
+  "fallbacks": "assets/minecraft/textures/gui/options_backgrounds/end_stone_bricks.png"
+}

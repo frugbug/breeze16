@@ -1,0 +1,23 @@
+{
+	"textures": {
+		"0": "block/nether_brick_fence_top",
+		"1": "lambdabettergrass:block/fence/nether_brick_fence_side_snowy",
+		"2": "lambdabettergrass:block/fence/nether_brick_fence_top_snowy",
+		"particle": "block/nether_brick_fence_top"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"east": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"south": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"west": {"uv": [5, 0, 11, 16], "texture": "#1"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:crosshair_style.hand",
+  "fallbacks": "assets/minecraft/textures/gui/crosshairs/dot.png"
+}

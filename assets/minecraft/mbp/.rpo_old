@@ -1,0 +1,8 @@
+{
+  "conditions": { 
+    "or": [
+      "breeze16:bushy_leaves.full",
+      "breeze16:bushy_leaves.half"
+    ]
+  }
+}

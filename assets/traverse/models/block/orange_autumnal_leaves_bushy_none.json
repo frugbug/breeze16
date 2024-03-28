@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves_no_tint",
+  "textures": {
+    "all": "traverse:block/orange_autumnal_leaves"
+  }
+}

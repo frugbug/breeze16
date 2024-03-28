@@ -1,0 +1,5 @@
+{
+    "conditions": !extra_grass,
+    "fallbacks": "assets/minecraft/blockstates/grass_block_extra1.json"
+}
+

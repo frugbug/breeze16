@@ -1,0 +1,15 @@
+{
+  "layers": [
+    {
+      "textures": {
+        "top": "minecraft:block/podzol_top",
+        "side": "minecraft:block/podzol_side",
+        "overrides": {
+          "blend_up": "lambdabettergrass:block/podzol/podzol_blend_up",
+          "blend_up_m": "lambdabettergrass:block/podzol/podzol_blend_up_m",
+          "arch": "lambdabettergrass:block/podzol/podzol_side_arch"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "block/fence/fence_inventory",
+	"textures": {
+		"1": "block/spruce_fence_top",
+		"2": "block/spruce_fence_inventory",
+		"particle": "block/spruce_fence_inventory"
+	}
+}

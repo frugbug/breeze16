@@ -1,0 +1,19 @@
+{
+  "snow": {
+    "layer": true,
+    "block_state": {
+      "multipart": [
+        {
+          "apply": {
+            "model": "block/dead_bush_snowy_bush"
+          }
+        },
+        {
+          "apply": {
+            "model": "block/dead_bush_snowy_snow"
+          }
+        }
+      ]
+    }
+  }
+}

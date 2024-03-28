@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/iron_block" },
+            { "model": "block/iron_block" },
+            { "model": "block/iron_block" },
+            { "model": "block/iron_block" },
+            { "model": "block/iron_block" },
+            { "model": "block/iron_block" },
+            { "model": "block/iron_block_rusty1" },
+            { "model": "block/iron_block_rusty1" },
+            { "model": "block/iron_block_rusty2" }
+        ]
+    }
+}

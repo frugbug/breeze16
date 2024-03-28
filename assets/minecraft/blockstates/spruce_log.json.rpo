@@ -1,0 +1,4 @@
+{
+    "conditions": !realistic_spruce_logs,
+    "fallbacks": "assets/minecraft/blockstates/spruce_log_realistic.json"
+}

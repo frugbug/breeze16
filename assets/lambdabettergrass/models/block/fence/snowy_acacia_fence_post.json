@@ -1,0 +1,9 @@
+{
+	"parent": "block/fence/fence_post_snowy",
+	"textures": {
+		"snowy_top": "lambdabettergrass:block/fence/fence_top_snowy",
+		"dry_top": "minecraft:block/acacia_fence_top",
+		"snowy_post": "lambdabettergrass:block/fence/acacia_fence_side_snowy",
+		"particle": "lambdabettergrass:block/fence/fence_top_snowy"
+	}
+}

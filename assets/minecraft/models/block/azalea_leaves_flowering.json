@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_bushy_no_tint_offset",
+  "textures": {
+    "leaves": "minecraft:block/azalea_leaves_flowering",
+    "leaves_extra": "minecraft:block/azalea_leaves_flowering_extra"
+  }
+}

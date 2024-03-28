@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:options_background.cobblestone",
+  "fallbacks": "assets/minecraft/textures/gui/options_backgrounds/bricks.png"
+}

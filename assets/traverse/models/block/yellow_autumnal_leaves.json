@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_bushy_no_tint",
+  "textures": {
+    "leaves": "traverse:block/yellow_autumnal_leaves",
+    "leaves_extra": "traverse:block/yellow_autumnal_leaves_extra"
+  }
+}

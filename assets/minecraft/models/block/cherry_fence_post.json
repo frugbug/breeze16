@@ -1,0 +1,8 @@
+{
+	"parent": "block/fence/fence_post",
+	"textures": {
+		"0": "block/cherry_fence_top",
+		"1": "block/cherry_fence_side",
+		"particle": "block/cherry_fence_top"
+	}
+}

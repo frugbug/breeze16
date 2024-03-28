@@ -1,0 +1,4 @@
+{
+    "conditions": { "not": "breeze16:advanced_options.better_shader_compatibility" },
+    "fallbacks": "assets/minecraft/optifine/block_better_shader_compatibility.properties"
+}

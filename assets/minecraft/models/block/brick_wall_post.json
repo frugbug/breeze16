@@ -1,0 +1,23 @@
+{
+	"textures": {
+		"2": "block/brick_wall_tall",
+		"3": "block/brick_wall_top",
+		"4": "block/bricks",
+		"particle": "block/bricks"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#2"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#4", "cullface": "down"}
+			}
+		}
+	]
+}

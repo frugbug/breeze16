@@ -1,0 +1,4 @@
+{
+    "conditions": !leaves_ao,
+    "fallbacks": "assets/minecraft/models/block/leaves_bushy_no_tint_angled_ao_offset.json"
+}

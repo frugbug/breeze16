@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"1": "block/spruce_trapdoor_sides",
+		"particle": "block/spruce_trapdoor",
+		"texture": "block/spruce_trapdoor"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "texture": "#texture"},
+				"east": {"uv": [16, 9, 0, 6], "rotation": 90, "texture": "#1", "cullface": "east"},
+				"south": {"uv": [16, 16, 0, 0], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [0, 11, 16, 14], "rotation": 90, "texture": "#1", "cullface": "west"},
+				"up": {"uv": [16, 4, 0, 1], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [16, 1, 0, 4], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

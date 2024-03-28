@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:crosshair_style.tactical_ultra",
+  "fallbacks": "assets/minecraft/textures/gui/crosshairs/heart.png"
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/oak_leaves",
+	"weight": 1
+      },
+      {
+        "model": "block/oak_leaves_angled",
+	"weight": 1
+      },
+      {
+        "model": "block/oak_leaves_bushy_none",
+	"weight": 2
+      }
+    ]
+  }
+}

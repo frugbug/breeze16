@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/pumpkin_item",
+	"textures": {
+		"top": "block/pumpkin_top",
+		"side": "block/pumpkin_side",
+		"leaf": "block/pumpkin_leaf",
+		"particle": "block/pumpkin_side",
+		"face": "block/pumpkin_side",
+		"item_sprite": "item/pumpkin"
+	}
+}

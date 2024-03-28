@@ -1,0 +1,41 @@
+{
+  "snow": {
+    "layer": true,
+    "block_state": {
+      "multipart": [
+        {
+          "when": {
+            "half": "lower"
+          },
+          "apply": {
+            "model": "block/tall_grass_snowy_bottom_grass"
+          }
+        },
+        {
+          "when": {
+            "half": "lower"
+          },
+          "apply": {
+            "model": "block/tall_grass_snowy_bottom_snow"
+          }
+        },
+        {
+          "when": {
+            "half": "lower"
+          },
+          "apply": {
+            "model": "block/tall_grass_snowy_top_snow"
+          }
+        },
+        {
+          "when": {
+            "half": "upper"
+          },
+          "apply": {
+            "model": "block/tall_grass_top"
+          }
+        }
+      ]
+    }
+  }
+}

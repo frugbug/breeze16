@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/spruce_log_horizontal_alternate",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minecraft:block/spruce_log_alternate"
+    },
+    "axis=z": {
+      "model": "minecraft:block/spruce_log_horizontal_alternate",
+      "x": 90
+    }
+  }
+}

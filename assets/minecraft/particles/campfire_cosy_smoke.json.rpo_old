@@ -1,0 +1,4 @@
+{
+    "conditions": !disable_cosy_smoke,
+    "fallbacks": "assets/minecraft/particles/campfire_cosy_smoke_disabled.json"
+}

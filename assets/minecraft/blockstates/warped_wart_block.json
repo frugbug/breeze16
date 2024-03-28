@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/warped_wart_block"
+      },
+      {
+        "model": "minecraft:block/warped_wart_block",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/warped_wart_block",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/warped_wart_block",
+        "y": 270
+      }
+    ]
+  }
+}

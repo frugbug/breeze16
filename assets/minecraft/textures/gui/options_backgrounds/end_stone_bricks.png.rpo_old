@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:options_background.end_stone_bricks",
+  "fallbacks": "assets/minecraft/textures/gui/options_backgrounds/prismarine.png"
+}

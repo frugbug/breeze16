@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "block/smithing_table_top2",
+		"1": "block/smithing_table_bottom",
+		"2": "block/smithing_table_side1",
+		"3": "block/smithing_table_side2",
+		"4": "block/smithing_table_side3",
+		"particle": "block/smithing_table_side1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

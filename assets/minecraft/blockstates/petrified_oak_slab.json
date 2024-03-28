@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/basket_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/basket"
+    },
+    "type=top": {
+      "model": "minecraft:block/basket_slab_top"
+    }
+  }
+}

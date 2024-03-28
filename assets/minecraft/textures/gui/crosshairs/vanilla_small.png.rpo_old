@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:crosshair_style.vanilla_small",
+  "fallbacks": "assets/minecraft/textures/gui/crosshairs/none.png"
+}

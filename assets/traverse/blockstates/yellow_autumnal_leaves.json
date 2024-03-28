@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "traverse:block/yellow_autumnal_leaves",
+	"weight": 1
+      },
+      {
+        "model": "traverse:block/yellow_autumnal_leaves_angled",
+	"weight": 1
+      },
+      {
+        "model": "traverse:block/yellow_autumnal_leaves_bushy_none",
+	"weight": 2
+      }
+    ]
+  }
+}

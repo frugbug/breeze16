@@ -1,0 +1,6 @@
+{
+    "conditions": { "not": "breeze16:utility.lower_shields" },
+    "fallbacks": "assets/minecraft/models/cit/shield_equipped_lower.json"
+}
+
+

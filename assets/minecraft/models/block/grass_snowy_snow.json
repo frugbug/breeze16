@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross_shading",
+  "textures": {
+    "cross": "minecraft:block/grass_snowy_snow"
+  }
+}

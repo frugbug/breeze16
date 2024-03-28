@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/cornflower"
+      },
+      {
+        "model": "minecraft:block/cornflower_alt1"
+      }
+    ]
+  }
+}

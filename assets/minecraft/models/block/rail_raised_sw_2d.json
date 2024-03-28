@@ -1,0 +1,28 @@
+{
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/rail_sloped",
+		"particle": "block/rail"
+	},
+	"elements": [
+		{
+			"from": [0, 9.08223, -3.30614],
+			"to": [16, 9.08223, 19.69386],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8.58223, 8.28934]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 11.5], "texture": "#1"},
+				"down": {"uv": [0, 11.5, 8, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 9.08223, -2.80614],
+			"to": [16, 9.08223, 20.19386],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8.58223, 8.28934]},
+			"faces": {
+				"up": {"uv": [8, 0, 16, 11.5], "texture": "#1"},
+				"down": {"uv": [8, 11.5, 16, 0], "texture": "#1"}
+			}
+		}
+	]
+}

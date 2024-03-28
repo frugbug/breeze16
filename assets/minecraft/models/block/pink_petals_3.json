@@ -1,0 +1,45 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/pink_petals",
+		"minecraft:block/pink_petals": "block/pink_petals",
+		"minecraft:block/pink_petals_stem": "block/pink_petals_stem"
+	},
+	"elements": [
+		{
+			"from": [7, 2, 7],
+			"to": [16, 2, 16],
+			"faces": {
+				"up": {"uv": [7, 7, 16, 16], "texture": "#minecraft:block/pink_petals"},
+				"down": {"uv": [7, 16, 16, 7], "texture": "#minecraft:block/pink_petals"}
+			}
+		},
+		{
+			"from": [16.76875, 0, 2.13125],
+			"to": [16.76875, 2, 3.13125],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0.5, 0, 0.5]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#minecraft:block/pink_petals_stem", "tintindex": 1},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#minecraft:block/pink_petals_stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [17.15, 0, -2.85],
+			"to": [18.15, 2, -2.85],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 7], "texture": "#minecraft:block/pink_petals_stem", "tintindex": 1},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#minecraft:block/pink_petals_stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [12.025, 0, -0.5],
+			"to": [12.025, 2, 0.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#minecraft:block/pink_petals_stem", "tintindex": 1},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#minecraft:block/pink_petals_stem", "tintindex": 1}
+			}
+		}
+	]
+}

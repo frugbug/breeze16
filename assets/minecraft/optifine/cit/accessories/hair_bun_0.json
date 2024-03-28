@@ -1,0 +1,61 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/misc/player_skin",
+		"particle": "block/misc/player_skin"
+	},
+	"elements": [
+		{
+			"from": [6, 6, 12],
+			"to": [10, 10, 15],
+			"faces": {
+				"east": {"uv": [8, 0, 8.75, 1], "texture": "#0"},
+				"south": {"uv": [7, 0, 8, 1], "texture": "#0"},
+				"west": {"uv": [6.25, 0, 7, 1], "texture": "#0"},
+				"up": {"uv": [8.75, 0.25, 9.75, 1], "texture": "#0"},
+				"down": {"uv": [7, 1, 8, 1.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 4, 13],
+			"to": [9, 6, 15],
+			"faces": {
+				"east": {"uv": [14.5, 0, 15, 0.5], "texture": "#0"},
+				"south": {"uv": [14, 0, 14.5, 0.5], "texture": "#0"},
+				"west": {"uv": [13.5, 0, 14, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

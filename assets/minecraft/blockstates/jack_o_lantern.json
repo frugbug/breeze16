@@ -1,0 +1,23 @@
+{
+    "multipart": [
+        {   "when": { "facing": "north" },
+            "apply": { "model": "block/pumpkin_jack_o_lantern" }
+        },
+        {   "when": { "facing": "east" },
+            "apply": { "model": "block/pumpkin_jack_o_lantern", "y": 90 }
+        },
+        {   "when": { "facing": "south" },
+            "apply": { "model": "block/pumpkin_jack_o_lantern", "y": 180 }
+        },
+        {   "when": { "facing": "west" },
+            "apply": { "model": "block/pumpkin_jack_o_lantern", "y": 270 }
+        },
+        {   "apply": [
+                { "model": "block/pumpkin_leaf" },
+                { "model": "block/pumpkin_leaf", "y": 90 },
+                { "model": "block/pumpkin_leaf", "y": 180 },
+                { "model": "block/pumpkin_leaf", "y": 270 }
+            ]
+        }
+    ]
+}

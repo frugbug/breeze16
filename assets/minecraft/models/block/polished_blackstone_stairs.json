@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "minecraft:block/blackstone_polished",
+    "top": "minecraft:block/blackstone_polished",
+    "side": "minecraft:block/blackstone_polished"
+  }
+}

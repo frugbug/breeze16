@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "minecraft:block/concrete_green",          "weight": 3 },
+            { "model": "minecraft:block/concrete_green_damaged1", "weight": 2 },
+            { "model": "minecraft:block/concrete_green_damaged2", "weight": 1 }
+        ]
+    }
+}

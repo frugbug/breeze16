@@ -1,0 +1,4 @@
+{
+    "conditions": !invisible_item_frames,
+    "fallbacks": "assets/minecraft/models/block/item_frame_invisible.json"
+}

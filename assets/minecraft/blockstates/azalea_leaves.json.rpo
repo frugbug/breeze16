@@ -1,0 +1,4 @@
+{
+  "conditions": bushy_leaves.half,
+  "fallbacks": "assets/minecraft/blockstates/azalea_leaves_bushy_full.json"
+}

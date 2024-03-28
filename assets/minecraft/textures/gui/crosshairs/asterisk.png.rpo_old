@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:crosshair_style.asterisk",
+  "fallbacks": "assets/minecraft/textures/gui/crosshairs/circle.png"
+}

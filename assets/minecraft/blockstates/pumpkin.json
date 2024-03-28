@@ -1,0 +1,18 @@
+{
+    "multipart": [
+	{   "apply": [
+                { "model": "block/pumpkin" },
+                { "model": "block/pumpkin", "y": 90 },
+                { "model": "block/pumpkin", "y": 180 },
+                { "model": "block/pumpkin", "y": 270 }
+	            ]
+        },
+        {   "apply": [
+                { "model": "block/pumpkin_leaf" },
+                { "model": "block/pumpkin_leaf", "y": 90 },
+                { "model": "block/pumpkin_leaf", "y": 180 },
+                { "model": "block/pumpkin_leaf", "y": 270 }
+	            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "conditions": !invisible_glow_item_frames,
+    "fallbacks": "assets/minecraft/models/block/glow_item_frame_invisible.json"
+}

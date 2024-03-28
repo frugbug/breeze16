@@ -1,0 +1,41 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/pumpkin_stem_stage_3",
+		"particle": "block/pumpkin_stem_stage_3"
+	},
+	"elements": [
+		{
+			"from": [-16, -1, 8],
+			"to": [16, 31, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, -1, 8],
+			"to": [32, 31, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, -1, 0],
+			"to": [8, 31, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8, -1, -16],
+			"to": [8, 31, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

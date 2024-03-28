@@ -1,0 +1,4 @@
+{
+    "conditions": { "not": "breeze16:advanced_options.better_shader_compatibility" },
+    "fallbacks": "assets/minecraft/textures/block/stained_glass_pane_white_better_shader_compatibility.png"
+}

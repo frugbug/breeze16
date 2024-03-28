@@ -1,0 +1,27 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/pumpkin_stem_attached",
+		"5": "block/pumpkin_stem_attached_base",
+		"particle": "block/pumpkin_stem_attached"
+	},
+	"elements": [
+		{
+			"from": [-16, -1, 8],
+			"to": [16, 31, 8],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, -1, 1],
+			"to": [6, 15, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#5"}
+			}
+		}
+	]
+}

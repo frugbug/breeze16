@@ -1,0 +1,3 @@
+matchItems=minecraft:white_wool
+nbt.display.Name=ipattern:couch_white_1
+model=couch_white.json

@@ -1,0 +1,6 @@
+{
+  "parent": "./parent/cupboards_parent",
+  "textures": {
+    "1": "./birch_cupboards"
+  }
+}

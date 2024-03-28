@@ -1,0 +1,4 @@
+{
+  "conditions": "breeze16:bushy_leaves.full",
+  "fallbacks": "assets/traverse/blockstates/yellow_autumnal_leaves_bushy_none.json"
+}

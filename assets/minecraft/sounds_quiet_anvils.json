@@ -1,0 +1,9 @@
+{
+  "block.anvil.use": {
+    "sounds": [
+      "random/anvil_use_but_this_sound_doesnt_exist"
+    ],
+    "replace": "true",
+    "subtitle": "subtitles.block.anvil.use"
+  }
+}

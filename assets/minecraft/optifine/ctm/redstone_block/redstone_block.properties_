@@ -1,0 +1,5 @@
+matchTiles=redstone_block
+method=repeat
+width=1
+height=6
+tiles=0-5

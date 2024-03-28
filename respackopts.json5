@@ -1,0 +1,59 @@
+{
+  "id": "breeze16",
+  "version": 12,
+  "capabilities": ["FileFilter", "DirFilter"],
+  "conf": {
+	invisible_item_frames: false,
+	invisible_glow_item_frames: false,
+	extra_grass: false,
+	disable_cosy_smoke: false,
+	realistic_spruce_logs: false,
+	crosshair_style: {
+		type: "enum",
+		default: "vanilla",
+		values: [
+			"vanilla",
+			"vanilla_small",
+			"tactical",
+			"tactical_ultra",
+			"heart",
+			"x",
+			"asterisk",
+			"circle",
+			"circle_big",
+			"hand",
+			"dot",
+			"pointer",
+			"launcher",
+			"none"
+		]
+	},
+	options_background: [
+		"dirt",
+		"stone",
+		"cobblestone",
+		"bricks",
+		"stone_bricks",
+		"end_stone_bricks",
+		"prismarine",
+		"blackstone"
+	],
+	bushy_leaves: {
+		type: "enum",
+		default: "half",
+		values: [
+			"full",
+			"half",
+			"none"
+		]
+	},
+	leaves_ao: true,
+	utility: {
+		lower_shields: false,
+		quiet_anvils: false
+	},
+	advanced_options: {
+		better_shader_compatibility: false
+	}
+  }
+}

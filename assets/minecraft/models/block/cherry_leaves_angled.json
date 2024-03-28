@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_bushy_angled",
+  "textures": {
+    "leaves": "minecraft:block/cherry_leaves",
+    "leaves_extra": "minecraft:block/cherry_leaves_extra"
+  }
+}

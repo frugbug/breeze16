@@ -1,0 +1,8 @@
+{
+	"parent": "block/fence/fence_side_snowy",
+	"textures": {
+		"snowy_top": "lambdabettergrass:block/fence/fence_top_mossy",
+		"dry_top": "minecraft:block/oak_fence_top",
+		"snowy_side": "lambdabettergrass:block/fence/oak_fence_side_mossy"
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "traverse:block/fir_leaves",
+	"weight": 1
+      },
+      {
+        "model": "traverse:block/fir_leaves_angled",
+	"weight": 1
+      },
+      {
+        "model": "traverse:block/fir_leaves_bushy_none",
+	"weight": 2
+      }
+    ]
+  }
+}

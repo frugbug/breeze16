@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/bookshelves/bookshelf_0",
+	"weight": 4
+      },
+      {
+        "model": "minecraft:block/bookshelves/bookshelf_1",
+	"weight": 4
+      },
+      {
+        "model": "minecraft:block/bookshelves/bookshelf_2",
+	"weight": 4
+      },
+      {
+        "model": "minecraft:block/bookshelves/bookshelf_3",
+	"weight": 1
+      },
+      {
+        "model": "minecraft:block/bookshelves/bookshelf_4",
+	"weight": 3
+      },
+      {
+        "model": "minecraft:block/bookshelves/bookshelf_5",
+	"weight": 2
+      }
+    ]
+  }
+}
