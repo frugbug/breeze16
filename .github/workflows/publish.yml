@@ -48,9 +48,10 @@ jobs:
           cd ..
           # zipinfo test-publish.zip
           ls
+          echo current directory is $PWD
 
       - name: Upload published zip
         uses: actions/upload-artifact@v3
         with:
           name: breeze16-artifacts-test
-          path: *
+          path: 
