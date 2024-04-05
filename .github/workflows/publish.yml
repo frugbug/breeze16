@@ -42,6 +42,8 @@ jobs:
           echo Remaining files:
           ls -1
           echo Running kzip...
+          date-time=$(date +"%F.%H-%M-%S")
+          echo $date-time
           ../kzipmix-20200115-linux/amd64/kzip -r -q ../test-publish.zip *
           cd ..
           # zipinfo test-publish.zip
