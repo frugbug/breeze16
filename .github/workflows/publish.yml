@@ -58,7 +58,7 @@ jobs:
       - name: Upload loose files
         uses: actions/upload-artifact@v4
         with:
-          name: breeze16-$datetime
+          name: breeze16-${{ env.datetime }}
           path: |
             /home/runner/work/breeze16/breeze16/assets/
             /home/runner/work/breeze16/breeze16/pack.png
