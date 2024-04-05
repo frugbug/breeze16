@@ -44,19 +44,17 @@ jobs:
           wget -q -O- https://www.jonof.id.au/files/kenutils/kzipmix-20200115-linux.tar.gz | tar -xz
           ls -1
           cd breeze16
-          # datetime=$(date +"%F.%H-%M-%S")
           echo Date and time string for filename is $datetime
           echo Running kzip...
           ../kzipmix-20200115-linux/amd64/kzip -r -q ../breeze16-$datetime.zip *
           cd ..
-          # zipinfo test-publish.zip
           echo Done, listing files in directory $PWD:
           ls -1
 
       - name: Upload published kzipped file
         uses: actions/upload-artifact@v4
         with:
-          name: breeze16-kzipped
+          name: breeze16-${{ env.datetime }}-kzip
           path: /home/runner/work/breeze16/breeze16*.zip
           
       - name: Upload loose files
