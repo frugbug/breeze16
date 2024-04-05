@@ -62,4 +62,4 @@ jobs:
             /home/runner/work/breeze16/breeze16/pack.mcmeta
             /home/runner/work/breeze16/breeze16/credits.txt
             /home/runner/work/breeze16/breeze16/respackopts.json5
-          compression-level: 1
+          compression-level: 2
