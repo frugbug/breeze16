@@ -36,8 +36,12 @@ jobs:
           echo Downloading kzip...
           curl https://www.jonof.id.au/files/kenutils/kzipmix-20200115-linux.tar.gz
           cd breeze16
+          echo Deleting ignored files...
           xargs rm -r <zip-ignore.txt
-          ../kzipmix-20200115-linux/amd64/kzip -r ../test-publish.zip *
+          echo Remaining files:
+          ls -1
+          echo Running kzip...
+          ../kzipmix-20200115-linux/amd64/kzip -rq ../test-publish.zip *
           cd ..
           zipinfo test-publish.zip
           ls
