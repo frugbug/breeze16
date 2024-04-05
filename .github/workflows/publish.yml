@@ -40,8 +40,8 @@ jobs:
           xargs rm -r <zip-ignore.txt
           echo Remaining files:
           ls -1
-          echo Running kzip...
-          ../kzipmix-20200115-linux/amd64/kzip -rq ../test-publish.zip *
+          # echo Running kzip...
+          # ../kzipmix-20200115-linux/amd64/kzip -rq ../test-publish.zip *
           cd ..
           zipinfo test-publish.zip
           ls
