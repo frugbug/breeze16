@@ -43,8 +43,8 @@ jobs:
           ls -1
           echo Running kzip...
           date +"%F.%H-%M-%S"
-          date-time=$(date +"%F.%H-%M-%S")
-          echo $date-time
+          datetime=$(date +"%F.%H-%M-%S")
+          echo $datetime
           ../kzipmix-20200115-linux/amd64/kzip -r -q ../test-publish.zip *
           cd ..
           # zipinfo test-publish.zip
