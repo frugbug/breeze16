@@ -42,7 +42,7 @@ jobs:
           echo Remaining files:
           ls -1
           echo Running kzip...
-          ../kzipmix-20200115-linux/amd64/kzip -rq ../test-publish.zip *
+          ../kzipmix-20200115-linux/amd64/kzip -r -q ../test-publish.zip *
           cd ..
-          zipinfo test-publish.zip
+          # zipinfo test-publish.zip
           ls
