@@ -54,4 +54,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: breeze16-artifacts-test
-          path: 
+          path: /home/runner/work/breeze16/breeze16*.zip
