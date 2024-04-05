@@ -33,7 +33,7 @@ jobs:
           echo Remaining files:
           ls -1
           
-      - name: Publish using kzip
+      - name: Zip using kzip
         run: |
           cd ..
           echo Downloading kzip...
@@ -58,7 +58,7 @@ jobs:
       - name: Upload loose files
         uses: actions/upload-artifact@v4
         with:
-          name: breeze16-test
+          name: breeze16-$datetime
           path: |
             /home/runner/work/breeze16/breeze16/assets/
             /home/runner/work/breeze16/breeze16/pack.png
