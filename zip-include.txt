@@ -2,4 +2,4 @@ assets/
 pack.mcmeta
 pack.png
 credits.txt
-respackops.json5
+respackopts.json5
