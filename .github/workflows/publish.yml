@@ -25,34 +25,43 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Delete ignored files
+        run: |
+          echo Deleting ignored files...
+          xargs rm -r <zip-ignore.txt
+          echo Remaining files:
+          ls -1
+          
+      - name: Publish using kzip
         run: |
           cd ..
           echo Downloading kzip...
           wget -q -O- https://www.jonof.id.au/files/kenutils/kzipmix-20200115-linux.tar.gz | tar -xz
           ls -1
           cd breeze16
-          echo Deleting ignored files...
-          xargs rm -r <zip-ignore.txt
-          echo Remaining files:
-          ls -1
-          echo Running kzip...
           datetime=$(date +"%F.%H-%M-%S")
-          echo $datetime
-          echo "filename=breeze16-$datetime" >> $GITHUB_ENV
+          echo Date and time string for filename is $datetime
+          echo Running kzip...
           ../kzipmix-20200115-linux/amd64/kzip -r -q ../breeze16-$datetime.zip *
           cd ..
           # zipinfo test-publish.zip
-          ls
-          echo current directory is $PWD
+          echo Done, listing files in directory $PWD:
+          ls -1
 
-      - name: Upload published zip
+      - name: Upload published kzipped file
         uses: actions/upload-artifact@v4
         with:
-          name: breeze16-artifacts-test
-          path: /home/runner/work/breeze16/${{env.filename}}.zip
+          name: breeze16-kzipped
+          path: /home/runner/work/breeze16/breeze16*.zip
+          
+      - name: Upload loose files
+        uses: actions/upload-artifact@v4
+        with:
+          name: breeze16-test
+          path: |
+            /home/runner/work/breeze16/breeze16/assets/
+            /home/runner/work/breeze16/breeze16/pack.png
+            /home/runner/work/breeze16/breeze16/pack.mcmeta
+            /home/runner/work/breeze16/breeze16/credits.txt
+            /home/runner/work/breeze16/breeze16/respackopts.json5
