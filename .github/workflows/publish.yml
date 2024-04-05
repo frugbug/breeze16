@@ -35,6 +35,7 @@ jobs:
           cd ..
           echo Downloading kzip...
           wget -q -O- https://www.jonof.id.au/files/kenutils/kzipmix-20200115-linux.tar.gz | tar -xz
+          ls -1
           cd breeze16
           echo Deleting ignored files...
           xargs rm -r <zip-ignore.txt
