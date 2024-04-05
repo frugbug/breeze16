@@ -1,5 +1,0 @@
-assets/
-pack.mcmeta
-pack.png
-credits.txt
-respackopts.json5
